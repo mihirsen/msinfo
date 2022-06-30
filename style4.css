@@ -1,0 +1,487 @@
+                   /* Home page */
+ body{
+    margin: 0;
+    padding: 0;
+}
+
+.iconheader{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size:30;
+    font-weight: 550;
+    margin-left: 15%;
+    padding-top: 2%;
+
+ }
+ @media screen and (max-width: 770px){
+    .iconheader{
+        font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+        font-size:20px;
+        font-weight: 550;
+        text-align:center
+        
+    } 
+     
+ }
+.dropdown{
+    background-color: rgba(120, 88, 221, 1);
+    height: 100vh;
+}
+@media screen and (max-width: 770px){
+    .dropdown{
+       background-color: #0c012a;
+    } 
+     
+ }
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+@media screen and (max-width:770px) {
+    nav a{
+        float:center;
+    }
+    
+}
+.About{
+    text-align: center;
+    margin-top: 10%;
+    word-spacing: 2px;
+    
+}
+@media screen and (max-width: 770px){
+    .About{
+        text-align: center;
+        word-spacing: 2px;
+
+    } 
+}
+
+#hello{
+    color: white;
+    font-size: 600%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width: 770px){
+    #hello{
+       color: aqua;
+       font-size: 260%;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    } 
+     
+ }
+#web{
+    color: aliceblue;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#button{
+    background-color: aliceblue;
+    border-color: aliceblue;
+    color:rgba(120, 88, 221, 1) ;
+    font-size: 100%;
+    font-weight: 900;
+    margin-bottom: 2.5rem;
+    border-radius: 2rem;
+    padding: 11px 30px;
+    height: 50px;
+    
+}
+@media screen and (max-width: 770px){
+#button{
+    background-color: aliceblue;
+    border-color: aliceblue;
+    color:#0c012a ;
+    font-size: 70%;
+    height: 10px;
+    font-weight: 900;
+    padding-bottom: 8%;
+    } 
+     
+ }
+ #button:hover{
+    color: white;
+    background-color:rgba(120, 88, 221, 1);
+    border-color: rgba(120, 88, 221, 1);
+ }
+ @media screen and (max-width: 770px){
+    #button:hover{
+        color:rgba(120, 88, 221, 1);
+        background-color: aqua;
+        } 
+         
+     }
+
+
+
+                    /* Page 2 */
+
+#About1{
+    font-size: 2.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.00735em;
+    text-align: center;
+    color: rgb(36, 36, 96);
+}
+@media screen and (max-width: 770px){
+    #About1{
+       color: #0c012a;
+       font-size: 20px;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    } 
+     
+ }
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 9px;
+    background-color:white;
+    padding: 10px;
+  }
+ 
+ @media screen and (max-width: 770px){
+    #mypic{
+        width: 220px;
+        } 
+    }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 30px;
+  }
+#para1{
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #636262;
+    
+ }
+ #download{
+    background-color:rgba(120, 88, 221, 1);
+    border-color: aliceblue;
+    color:white ;
+    font-size: 100%;
+    margin-bottom: 2.5rem;
+    border-radius: 2rem;
+    padding: 11px 30px;
+    height: 50px;
+}
+@media screen and (max-width:770px){
+    #download{
+        background-color: #0c012a;
+    }
+    
+}
+#hireme{
+    background-color: rgba(120, 88, 221, 1);
+    border-color: aliceblue;
+    color:white ;
+    font-size: 100%;
+    margin-bottom: 2.5rem;
+    border-radius: 2rem;
+    padding: 11px 30px;
+    height: 50px;
+}
+@media screen and (max-width:770px){
+    #hireme{
+        background-color: #0c012a;
+    }
+    
+}
+#hireme:hover{
+    color:rgba(120, 88, 221, 1);
+    background-color: white;
+}
+#download:hover{
+    color:rgba(120, 88, 221, 1);
+    background-color: white;
+} 
+
+
+                     /* Page 3 */
+
+ #page3{
+    background-color:rgba(120, 88, 221, 1) ;
+    height: 100%;
+ }
+ @media screen and (max-width:770px){
+    #page3{
+        background-color: #0c012a;
+    }
+  
+
+}
+.flex-container4{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    background-color:rgba(120, 88, 221, 1);
+    justify-content: center;
+   
+}
+
+.flex-container4 > div{
+    margin: 30%;
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+@media screen and (max-width:770px) {
+    .flex-container4{
+        background-color:#0c012a;
+
+       
+    }
+    
+    .flex-container4 > div{
+        background-color: white;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        height: 80px;
+        width: 120px; 
+
+}
+}
+@media screen and (max-width:770px) {
+    #cplus{
+        width: 70px;
+    }
+    #java{
+        width: 100px;
+    }
+    #python{
+        width: 60px
+    }
+    #javascript{
+        width: 70px;
+    }
+    
+}
+
+ #skills{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 700;
+    line-height: 3;
+    letter-spacing: 0.00735em;
+    text-align: center;
+    margin: 0;
+ }
+ @media screen and (max-width: 770px){
+    #skills{
+    color:white;
+    font-size: 1.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 900;
+    line-height: 3;
+    
+        }          
+     }        
+
+
+                     /* Page 4*/
+
+#page4{
+    background-color:white;
+    
+}
+#Achievements{
+    font-size: 2.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.00735em;
+    text-align: center;
+    color: rgb(36, 36, 96);
+
+}
+.flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.flex-container1 > div{
+    margin: 30%;
+    align-items: center;
+    background-color:white;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+@media screen and (max-width:770px) {
+    #ps{
+      width: 104px;  
+    }
+    #java{
+        width: 105px;
+    }
+    #Achievements{
+        font-size: 1.3rem;
+        font-weight: 900;
+    }
+}
+
+    
+                     /* Page 5*/
+#page5{
+
+    background-color:rgba(120, 88, 221, 1);
+    
+}
+#Experiences{
+    font-size: 2.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.00735em;
+    text-align: center;
+    color: white;
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+   
+}
+
+.flex-container > div{
+    margin: 30%;
+    background-color:white;
+    height: 100px;
+    width: 180px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+#intern{
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+@media screen and (max-width:770px) {
+    #page5{
+        background-color: #0c012a;
+    }
+    #Experiences{
+        font-size: 1.3rem;
+    }
+    #byteAvenuelogo{
+        width: 245px;
+    }
+    
+}
+
+                     /* Page 6*/
+
+#page6{
+    background-color:white;
+    
+}
+#Services{
+    font-size: 2.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.00735em;
+    text-align: center;
+    color: rgb(36, 36, 96);
+   
+}
+.flex-container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+   
+}
+.flex-container2 > div{
+    margin: 30%;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
+                     /* Page 6*/
+                    
+#CONTACT{
+    font-size: 2.5rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.00735em;
+    text-align: center;
+    color: white;
+    background-color: #0c012a;
+   
+}                     
+.footer{
+    color: white;
+    margin: 1rem 0;
+    justify-content: center;
+    background-color: #0c012a;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 9px;
+    background-color:#0c012a;
+    padding: 30px;
+    margin-left: 18%;
+  }
+.grid-item1 {
+    background-color: #0c012a;
+    padding: 10px;
+    font-size: 30px;
+  }
+
+#view{
+    font-size: medium;
+}
+#follow{
+    font-size: medium;
+}
+@media screen and (max-width: 770px){
+.grid-container1 {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 5px; 
+    background-color:#0c012a;
+    margin-left: 5%;
+  
+    } 
+.grid-item1{
+    font-size: 15px;
+ }
+ #CONTACT{
+    font-size: large;
+    
+ }
+}
